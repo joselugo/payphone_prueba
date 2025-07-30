@@ -28,7 +28,7 @@ WalletApi/
 ## 🔧 Clonar y ejecutar el proyecto
 
 ```bash
-git clone https://github.com/tu-usuario/wallet-api.git
+git clone https://github.com/joselugo/payphone_prueba.git
 cd wallet-api
 
 # Restaurar paquetes
