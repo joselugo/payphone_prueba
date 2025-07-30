@@ -29,7 +29,11 @@ WalletApi/
 
 ```bash
 git clone https://github.com/joselugo/payphone_prueba.git
-cd wallet-api
+
+# Desde la terminal powershell en raiz, moverse a cada proyecto
+#ejemplo
+
+cd Wallet.API
 
 # Restaurar paquetes
 dotnet restore
