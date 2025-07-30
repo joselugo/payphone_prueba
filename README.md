@@ -20,7 +20,7 @@ WalletApi/
 ## 🚀 Requisitos
 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- SQL Server Local o en contenedor
+- SQL Server Local
 - Visual Studio 2022+ o VS Code
 
 ---
