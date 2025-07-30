@@ -39,7 +39,15 @@ cd Wallet.API
 dotnet restore
 
 # Crear la base de datos y aplicar migraciones
-cd Wallet.API
+# Consola de paquetes NuGet Wallet.Infrastructure
+Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
+
+# Consola de paquetes NuGet Wallet.API Borrando carpeta Migrations de Wallet.Infrastructure
+Add-Migration InitialCreate -StartupProject Wallet.Api -Project Wallet.Infrastructure
+Update-Database -StartupProject WalletApi -Project Wallet.Infrastructure
+
+# O 
 dotnet ef database update
 ```
 
